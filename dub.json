@@ -1,0 +1,10 @@
+{
+	"authors": [
+		"Albert"
+	],
+	"copyright": "Copyright © 2025, Albert",
+	"description": "A language inspired by Siemens SCL",
+	"license": "BSD-3-Clause",
+	"name": "sclpp",
+ 	"sourcePath": ["source"]
+}
