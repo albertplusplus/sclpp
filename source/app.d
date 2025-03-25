@@ -1,7 +1,12 @@
 import lexer.lex;
+import std.stdio;
+
 
 void main()
 {
-  auto lexer = new Lexer("string to lex");
-  lexer.run();
+  auto lexer = Lexer!string("albert = 30");
+  auto toks = lexer.scan();
+  foreach (t; toks) {
+    writeln(t);
+  }
 }
